@@ -1,13 +1,11 @@
 /*eslint-env browser*/
 document.getElementById("calltoaction").addEventListener("click", fire);
 
-
 function fire(){
   console.log('clicked');
   document.getElementById("contentBox").remove();
   document.getElementById("animateGif").play();
 }
-
 
 document.getElementById("button1").onclick = function button1() {
   setTimeout(setVideo1, 6000);
@@ -43,8 +41,8 @@ function setFade1() {
 }
 
 document.getElementById("button2").onclick = function button2() {
-  setTimeout(setVideo2, 6000);
-  setTimeout(setFade2, 6000);
+  setTimeout(setVideo2, 0);
+  setTimeout(setFade2, 0);
   document.getElementById("transition").play();
   document.getElementById("video").pause();
   document.getElementById("transition").style.opacity = "100";
@@ -61,7 +59,7 @@ document.getElementById("button2").onclick = function button2() {
 };
 
 function setVideo2() {
-  document.getElementById("video").src = "./img/anim2.mp4";
+  document.getElementById("video").src = "images/spelen.mp4";
   document.getElementById("video").classList.add("fade-in");
   setTimeout(playVideo2, 1000);
 }
