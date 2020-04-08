@@ -26,7 +26,7 @@ document.getElementById("button1").onclick = function button1() {
 };
 
 function setVideo1() {
-  document.getElementById("video").src = "./img/anim1.mp4";
+  document.getElementById("video").src = "images/slapen.mp4";
   document.getElementById("video").classList.add("fade-in");
   setTimeout(playVideo1, 1000);
 }
@@ -41,8 +41,8 @@ function setFade1() {
 }
 
 document.getElementById("button2").onclick = function button2() {
-  setTimeout(setVideo2, 0);
-  setTimeout(setFade2, 0);
+  setTimeout(setVideo2, 6000);
+  setTimeout(setFade2, 6000);
   document.getElementById("transition").play();
   document.getElementById("video").pause();
   document.getElementById("transition").style.opacity = "100";

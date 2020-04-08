@@ -73,7 +73,7 @@
 
 .active {
     transition: all .2s ease-in-out;
-    box-shadow: 4px 4px 16px -5px rgba(0, 0, 0, 0.75);
+    box-shadow: 4px 4px 16px -5px rgba(0, 0, 0, 2);
     transform: scale(1.1);
     background-color: white;
 }
