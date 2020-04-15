@@ -8,8 +8,8 @@ function fire(){
 }
 
 document.getElementById("button1").onclick = function button1() {
-  setTimeout(setVideo1, 6000);
-  setTimeout(setFade1, 6000);
+  setTimeout(setVideo1, 1500);
+  setTimeout(setFade1, 1500);
   document.getElementById("transition").play();
   document.getElementById("video").pause();
   document.getElementById("transition").style.opacity = "100";
@@ -28,7 +28,7 @@ document.getElementById("button1").onclick = function button1() {
 function setVideo1() {
   document.getElementById("video").src = "images/slapen.mp4";
   document.getElementById("video").classList.add("fade-in");
-  setTimeout(playVideo1, 1000);
+  setTimeout(playVideo1, 0);
 }
 
 function playVideo1() {
@@ -41,8 +41,8 @@ function setFade1() {
 }
 
 document.getElementById("button2").onclick = function button2() {
-  setTimeout(setVideo2, 6000);
-  setTimeout(setFade2, 6000);
+  setTimeout(setVideo2, 1500);
+  setTimeout(setFade2, 1500);
   document.getElementById("transition").play();
   document.getElementById("video").pause();
   document.getElementById("transition").style.opacity = "100";
@@ -61,7 +61,7 @@ document.getElementById("button2").onclick = function button2() {
 function setVideo2() {
   document.getElementById("video").src = "images/spelen.mp4";
   document.getElementById("video").classList.add("fade-in");
-  setTimeout(playVideo2, 1000);
+  setTimeout(playVideo2, 0);
 }
 
 function playVideo2() {
@@ -92,7 +92,7 @@ document.getElementById("button3").onclick = function button3() {
 };
 
 function setVideo3() {
-  document.getElementById("video").src = "./img/anim3.mp4";
+  document.getElementById("video").src = "images/eten.mp4";
   document.getElementById("video").classList.add("fade-in");
   setTimeout(playVideo3, 1000);
 }

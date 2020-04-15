@@ -82,9 +82,8 @@
     transition: all .5s ease-in-out;
 }
 
-.color1 {
+/*.color1 {
     transition: all .5s ease-in-out;
-    /*background-color: #ffa875;*/
     background-color: #0E0F58;
 }
 
@@ -96,7 +95,7 @@
 .color3 {
     transition: all .5s ease-in-out;
     background-color: #0E0F58;
-}
+}*/
 
 .hidden {
     /*display: none;*/
@@ -109,7 +108,7 @@
 }
 
 .transition {
-    opacity: 100;
+    opacity: 5;
     left: 0;
     top: 0;
     position: fixed;
@@ -131,9 +130,9 @@
     }
 }
 
-.fade-out {
+*/.fade-out {
     animation: fadeOut 1s;
-}
+}*/
 
 @keyframes fadeOut {
     from {
