@@ -169,19 +169,27 @@
     cursor: pointer;
 }
 
+#made {
+    padding-top: 2em;
+}
 
 p {
     font-family: Avenir-Book;
-    font-size: 0.8rem;
+    font-size: 0.55em;
 }
 
 .credits {
-    font-size: 0.5rem;
+    font-size: 0.4em;
 }
 
 .start {
     -webkit-animation: flickerAnimation 2s infinite;
     animation: flickerAnimation 2s infinite;
+    background-image: linear-gradient(rgba(7,8, 69, 0.1), rgba(255, 255, 255, 0.1));
+    padding: 0.5em;
+    box-shadow: 4px 4px 10px -5px rgba(0, 0, 0, 0.4);
+    border-radius: 5em;
+    
 }
 
 @keyframes flickerAnimation {

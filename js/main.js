@@ -74,8 +74,8 @@ function setFade2() {
 }
 
 document.getElementById("button3").onclick = function button3() {
-  setTimeout(setVideo3, 6000);
-  setTimeout(setFade3, 6000);
+  setTimeout(setVideo3, 1500);
+  setTimeout(setFade3, 1500);
   document.getElementById("transition").play();
   document.getElementById("video").pause();
   document.getElementById("transition").style.opacity = "100";
@@ -94,7 +94,7 @@ document.getElementById("button3").onclick = function button3() {
 function setVideo3() {
   document.getElementById("video").src = "images/eten.mp4";
   document.getElementById("video").classList.add("fade-in");
-  setTimeout(playVideo3, 1000);
+  setTimeout(playVideo3, 0);
 }
 
 function playVideo3() {
